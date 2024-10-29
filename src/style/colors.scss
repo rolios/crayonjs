@@ -1,0 +1,70 @@
+:root {
+  --snz-primary: #343434;
+  --snz-snackbar-bg: #343434;
+  --snz-icon-primary: #343434;
+  --c-button-unactive: #343434;
+  --snz-bg-white: #ffffff;
+  --snz-bg-low: rgba(0, 0, 0, 0.05);
+  --snz-bg-dark: rgba(0, 0, 0, 0.2);
+
+  // Icon colors
+  --snz-icon-active: rgba(95, 99, 104, 1);
+  --snz-icon-hover: rgba(126, 126, 126, 1);
+  --snz-icon-click: rgba(242, 242, 242, 1);
+  --snz-icon-unactive: rgba(196, 196, 196, 1);
+  --snz-icon-bg-default: rgba(255, 255, 255, 1);
+  --snz-icon-bg-click: rgba(95, 99, 104, 1);
+  --snz-icon-bg-hover: rgba(242, 242, 242, 1);
+  --snz-sub-menu-icons: rgba(70, 70, 70, 1);
+
+  // Font colors
+  --snz-font-high: rgba(0, 0, 0, 0.8);
+  --snz-font-medium: rgba(0, 0, 0, 0.6);
+  --snz-font-low: rgba(0, 0, 0, 0.5);
+  --snz-font-disabled: rgba(0, 0, 0, 0.3);
+  --snz-font-inverted: rgba(255, 255, 255, 1);
+
+  --snz-primary-text-color: rgba(52, 52, 52, 1);
+  --snz-primary-icon-color: rgba(52, 52, 52, 1);
+  --snz-primary-button-color: rgba(52, 52, 52, 1);
+  --snz-transparent: rgba(255, 255, 255, 1);
+  --snz-accent: rgba(35, 182, 202, 1);
+  --snz-accent-10: rgba(35, 182, 202, 0.1);
+
+  --snz-documentation-color: rgba(233, 91, 11, 1);
+  --snz-surface---snakbar: rgba(52, 52, 52, 1);
+
+  --snz-background-white: rgba(255, 255, 255, 1);
+  --snz-background-white-1: rgba(255, 255, 255, 1);
+
+  --snz-color---empasis-70: rgba(0, 0, 0, 0.7);
+  --snz-low-emphasis: rgba(0, 0, 0, 0.1);
+  --snz-bg---white-20: rgba(255, 255, 255, 0.1);
+  --snz-white-40: rgba(255, 255, 255, 0.3);
+  --snz-background---dark-20: rgba(0, 0, 0, 0.2);
+  --snz-emphasis-10: rgba(0, 0, 0, 0.1);
+  --snz-doc-highlight: rgba(233, 91, 11, 0.2);
+  --snz-new: rgba(253, 243, 136, 0.2);
+}
+
+.c-bg-white {
+  background: var(--snz-background-white);
+}
+
+.c-color {
+  &-high {
+    color: var(--snz-font-high);
+  }
+  &-medium {
+    color: var(--snz-font-medium);
+  }
+  &-low {
+    color: var(--snz-font-low);
+  }
+  &-disabled {
+    color: var(--snz-font-disabled);
+  }
+  &-inverted {
+    color: var(--snz-font-inverted);
+  }
+}

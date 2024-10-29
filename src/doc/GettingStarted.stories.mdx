@@ -1,0 +1,19 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Crayon/Getting Started" />
+
+# Getting started
+
+Install from npm or yarn
+
+```yarn add @senzio/crayon```
+
+Then initialize it on your vue instance to have access to all the components.
+
+```
+import Vue from 'vue'
+import Crayon from '@senzio/crayon'
+import '@senzio/crayon/lib/crayon.css'
+
+Vue.use(Crayon)
+```
